@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 html{
@@ -14,16 +13,17 @@ html{
     margin: 0 auto;
     display: inline;
     margin-bottom: 250px;
-    display: flex;
+    display: flex;  
     justify-items: center;
     align-items: center;
     background-color: black;
     width: 100%;
-    height: 75px;
+    height: 85px;
     border: 1px solid black;
+    box-shadow: 3px 3px 5px black;
 }
 
-img{
+img#principal{
     width: 40px;
     background: black;
 }
@@ -34,4 +34,19 @@ h4{
     padding-right: 5px 5px;
 }
 
+.body{
+    text-align: center;
+    margin-top: 100px auto;
+}
 
+.body img{
+    width: 100%;
+}
+
+.title{
+    font-size: 35px;
+    font-style: initial;
+    font-family: 'Open Sans', sans-serif;
+    padding: auto;
+    margin: auto;
+}

@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-html{
+html {
     min-height: 10vh;
     position: relative;
 }
 
-.header{
+.header {
     margin: 0 auto;
     display: inline;
     margin-bottom: 250px;
-    display: flex;  
+    display: flex;
     justify-items: center;
     align-items: center;
     background-color: black;
@@ -23,30 +24,51 @@ html{
     box-shadow: 3px 3px 5px black;
 }
 
-img#principal{
+img#principal {
     width: 40px;
     background: black;
 }
 
-h4{
+h4 {
     margin: 0 auto;
     color: aliceblue;
     padding-right: 5px 5px;
 }
 
-.body{
+.body {
     text-align: center;
-    margin-top: 100px auto;
+    margin-top: -250px; /* Aproxima a div body em relação à div header */
 }
 
-.body img{
+.body img {
     width: 100%;
 }
 
-.title{
+.title {
     font-size: 35px;
     font-style: initial;
     font-family: 'Open Sans', sans-serif;
     padding: auto;
     margin: auto;
 }
+
+.texts{
+    padding: 30px 10px;
+    margin: 5px 10px;
+}
+
+.texts p{
+    padding: 15px 5px;
+}
+
+
+.boder{
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    width: 140px;
+    height: 50px;
+    border: 1px black solid;
+}
+
+/* Utilizar o padding nos h3 para centralizar textos nas divs*/
